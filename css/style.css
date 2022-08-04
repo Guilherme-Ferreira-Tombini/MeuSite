@@ -1,12 +1,23 @@
-html{
-    background-color: grey;
+body{
+    margin: 0 auto;
+    padding: 0 auto;
 }
 header h1{
     background-color: rgb(0, 0, 63);
     color: white;
     text-align: center;
     margin-bottom: 0;
+    margin-top: 0;
     padding: 20px;
+}
+
+.titulo{
+    font-size: 15px;
+}
+footer{
+    color:white;
+    background-color: black;
+    text-align: center;
 }
 
 main{
