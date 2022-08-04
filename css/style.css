@@ -3,4 +3,5 @@ body{
 }
 .fonte{
     font-size: 30px;
+    flex-direction: column;
 }
