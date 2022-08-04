@@ -1,6 +1,7 @@
 body{
     margin: 0 auto;
     padding: 0 auto;
+    font-family: Arial;
 }
 header h1{
     background-color: rgb(0, 0, 63);
@@ -18,6 +19,7 @@ footer{
     color:white;
     background-color: black;
     text-align: center;
+    padding: 5px;
 }
 
 main{
