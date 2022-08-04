@@ -1,4 +1,4 @@
-body, html{
+html{
     background-color: grey;
 }
 header h1{
@@ -7,5 +7,4 @@ header h1{
     text-align: center;
     margin-bottom: 0;
     padding: 20px;
-  
 }
