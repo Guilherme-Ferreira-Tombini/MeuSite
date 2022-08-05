@@ -4,6 +4,7 @@ body{
     font-family: Arial;
     min-height: 100vh;
     align-items: center;
+    color:white;
 }
 a {
     color: inherit;
@@ -14,7 +15,7 @@ a {
     box-sizing: border-box;
   }
 header{
-    background-color: rgb(0, 0, 63);
+    background-color: rgb(4, 4, 126);
     color: white;
     margin-bottom: 0;
     margin-top: 0;
@@ -43,7 +44,7 @@ header{
 }
 footer{
     color:white;
-    background-color: black;
+    background-color: rgb(4, 4, 126);
     text-align: center;
     padding: 5px;
 }
@@ -51,6 +52,7 @@ footer{
 main{
     width:100%;
     padding: 10px;
+    background-color: grey;
   }
 
 .paragrafo{
@@ -58,8 +60,8 @@ main{
 }
 
 img{
-    width: 70%;
-    height: 380px;
+    width: 90%;
+    height: 480px;
 }
 
 .slider{
@@ -80,20 +82,30 @@ img{
 }
 
 .slider > input:nth-child(1):checked ~ .slider-content{
-    transform: translateX(0%);
+    transform: translateX(-2%);
 }
 
 .slider > input:nth-child(2):checked ~ .slider-content{
-    transform: translateX(-100%);
+    transform: translateX(-105%);
 }
 .slider > input:nth-child(3):checked ~ .slider-content{
-    transform: translateX(-200%);
+    transform: translateX(-208%);
 }
 
 .slider > input:nth-child(4):checked ~ .slider-content{
-    transform: translateX(-300%);
+    transform: translateX(-311%);
 }
 
 a:hover{
-	color: #9c60d7;
+	color: #7260d7;
+}
+
+.slider-item{
+    margin:20px;
+    font-size: 16px;
+    background-color: rgb(4, 4, 126);
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
 }
