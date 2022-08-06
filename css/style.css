@@ -32,10 +32,13 @@ header{
 }
 
 .menu,h5,a{
-    margin:5px;
+  margin:5px;
   font-size:17px;
 }
 
+.distancia{
+    margin-right: 25px;
+}
 .titulo{
     font-size: 20px;
     padding: 10px;
