@@ -3,7 +3,9 @@ body{
     padding: 0 auto;
     font-family: Arial;
     min-height: 100vh;
-
+    background-image: url(../image/imagem\ de\ fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 a {
     color: inherit;
@@ -14,6 +16,16 @@ a {
     box-sizing: border-box;
   }
 
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: rgb(99, 98, 98);
+}
+
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to bottom, rgb(102, 2, 102),rgb(11, 11, 158));
+    border-radius: 10px;
+}
+
 header{
     background-color: rgb(4, 4, 126);
     color: white;
@@ -23,6 +35,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom:1px solid white ;
 }
 
 .menu{
@@ -50,7 +63,8 @@ footer{
     color:white;
     background-color: rgb(4, 4, 126);
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    border-top: 1px solid white;
 }
 
 main{
@@ -60,7 +74,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: grey;
     
 }
 
@@ -81,8 +94,8 @@ a:hover{
 }
 
 .imagem, img{
-    height: 350px;
-    width: 45%;
+    height: 256px;
+    width: 35%;
 }
 
 img{

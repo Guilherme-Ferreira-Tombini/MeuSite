@@ -5,6 +5,9 @@ body{
     min-height: 100vh;
     align-items: center;
     color:white;
+    background-image: url(../image/imagem\ de\ fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 a {
     color: inherit;
@@ -14,6 +17,17 @@ a {
   * {
     box-sizing: border-box;
   }
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: rgb(99, 98, 98);
+}
+
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to bottom, rgb(102, 2, 102),rgb(11, 11, 158));
+    border-radius: 10px;
+}
+
 header{
     background-color: rgb(4, 4, 126);
     color: white;
@@ -23,6 +37,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid white;
 }
 
 .menu{
@@ -39,23 +54,28 @@ header{
 .distancia{
     margin-right: 25px;
 }
-.titulo{
-    font-size: 20px;
+.card{
+    font-size: 11px;
     padding: 10px;
     text-align: center;
-
+    margin:30px;
+    background-color: rgb(4, 4, 126);
+    color:white;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
 }
+
 footer{
     color:white;
     background-color: rgb(4, 4, 126);
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    border-top: 1px solid white;
 }
 
 main{
     width:100%;
     padding: 10px;
-    background-color: grey;
   }
 
 .paragrafo{
@@ -106,9 +126,9 @@ a:hover{
 .slider-item{
     margin:20px;
     font-size: 16px;
-    background-color: rgb(4, 4, 126);
+    background-color: rgb(5, 5, 87);
     color:white;
-    padding: 20px;
+    padding: 5px;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
 }
