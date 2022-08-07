@@ -22,7 +22,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb{
-    background-image: linear-gradient(to bottom, rgb(102, 2, 102),rgb(11, 11, 158));
+    background-image: linear-gradient(to bottom, rgb(80, 1, 80),rgb(11, 11, 158));
     border-radius: 10px;
 }
 
@@ -94,8 +94,8 @@ a:hover{
 }
 
 .imagem, img{
-    height: 256px;
-    width: 35%;
+    height: 350px;
+    width: 45%;
 }
 
 img{
